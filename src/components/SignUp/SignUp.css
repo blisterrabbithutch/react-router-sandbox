@@ -1,0 +1,56 @@
+.SignUp {
+    padding: 206px 30px; 
+    background: var(--black) url('./assets/signup-photo.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUp__content {
+    color: var(--white);
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 96px 93px;
+    max-width: 770px;
+    box-sizing: border-box;
+}
+
+.SignUp__title {
+    color: var(--black);
+    font-weight: 600;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.SignUp__text {
+    text-align: center;
+    color: var(--black);
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.SignUp__input,
+.SignUp__button {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    box-sizing: border-box;
+    padding: 22px 32px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+.SignUp__input {
+    background: none;
+    border: 1px solid var(--gray);
+    margin-bottom: 16px;
+}
+
+.SignUp__button {
+    background: var(--accent-blue);
+    color: var(--white);
+}
+

@@ -1,0 +1,12 @@
+.Footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--faded-black);
+}
+
+.Footer__logo {
+    padding: 70px;
+    color: var(--white);
+}
